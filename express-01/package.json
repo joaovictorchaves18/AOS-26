@@ -1,0 +1,18 @@
+{
+  "name": "express-01",
+  "version": "1.0.0",
+  "description": "Projeto de Express, aula 01 17/08",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "UNICAP",
+    "vida",
+    "express"
+
+  ],
+  "author": "Sammuel Victor",
+  "license": "ISC",
+  "type": "commonjs"
+}

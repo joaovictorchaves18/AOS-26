@@ -1,18 +1,30 @@
 {
   "name": "express-01",
   "version": "1.0.0",
-  "description": "Projeto de Express, aula 01 17/08",
+  "description": "Projeto de exemplo para a disciplina AOS da UNICAP",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon --exec babel-node src/index.js",
     "start": "node src/index.js"
   },
   "keywords": [
+    "express",
     "UNICAP",
-    "vida",
-    "express"
-
+    "dotenv",
+    "back-end"
   ],
   "author": "Sammuel Victor",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/node": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
 }
